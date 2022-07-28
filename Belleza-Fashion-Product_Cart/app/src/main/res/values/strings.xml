@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Belleza Fashion</string>
+    <string name="txt1" />
+    <string name="btn1" />
+    <string name="btn2" />
+    <string name="ltxt1">Username</string>
+    <string name="ltxt2">Password</string>
+    <string name="txt4" />
+    <string name="btn3" />
+    <string name="txt5" />
+    <string name="txt6" />
+    <string name="cbox" />
+    <string name="rtxt1" />
+    <string name="rtxt2">Enter Name</string>
+    <string name="rtxt3">Enter Username</string>
+    <string name="rtxt4">Enter Password</string>
+    <string name="btn4" />
+    <string name="logout" />
+    <string name="Abtn1" />
+    <string name="Abtn2" />
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="navtxt1" />
+    <string name="menu_settings">menu_settings</string>
+    <string name="hbtn1" />
+    <string name="htbn2" />
+    <string name="hbtn3" />
+    <string name="title_activity_profile">ProfileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ptxt1" />
+    <string name="ptxt2" />
+    <string name="ptxt3">Username</string>
+    <string name="ptxt4">Email</string>
+    <string name="pptxt1">Name</string>
+    <string name="pptxt2">Username</string>
+    <string name="pptxt3">Email</string>
+    <string name="pbtn" />
+    <string name="textview" />
+    <string name="rtxt5">Email</string>
+
+
+</resources>

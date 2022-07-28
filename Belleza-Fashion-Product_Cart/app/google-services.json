@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343105401029",
+    "project_id": "belleza-fashion",
+    "storage_bucket": "belleza-fashion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343105401029:android:a1b796237e735adc3d40ac",
+        "android_client_info": {
+          "package_name": "com.example.bellezafashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343105401029-vhk9u4er982g2v72cpa4jabsnv96pkko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqZTGszAE1vNoqcDbC1_RCQikTokQoUrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343105401029-vhk9u4er982g2v72cpa4jabsnv96pkko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".CartActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Total Amount = "
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/next"
+        android:layout_below="@id/rl11"
+        tools:ignore="MissingClass" />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Proceed to checkout"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/tot"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/next"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="-77dp"
+        android:layout_marginBottom="158dp"
+        android:text="Show Total Price"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
